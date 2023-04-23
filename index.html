@@ -2,70 +2,145 @@
 <html lang="pt">
 
 <head>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>O Meu Portfolio</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
 
 </head>
 
 <body>
-<!--- NAVBAR --->
-<nav class="navbar">
-    <div class="navbar__container">
-        <a href="/" id="navbar__logo"> <i class="fas fa-laptop"></i>André Santos</a>
-        <div class="navbar__toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+    <!--- NAVBAR --->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"> <i class="fas fa-laptop"></i>André Santos</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/sobre.html" class="navbar__links"> Sobre</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links"> projetos</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links"> programação Web
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links"> Blog</a>
+                </li>
+
+                <li class="navbar__btn">
+                    <a href="/contacto.html" class="button"> Contacte-me</a>
+                </li>
+
+            </ul>
+
         </div>
-        <ul class="navbar__menu">
-            <li class="navbar__item">
-                <a href="/" class="navbar__links">Home</a>
-            </li>
-            <li class="navbar__item">
-                <a href="/" class="navbar__links"> Sobre mim</a>
-            </li>
-            <li class="navbar__item">
-                <a href="/" class="navbar__links"> projetos</a>
-            </li>
-            <li class="navbar__item">
-                <a href="/" class="navbar__links"> programação Web
-                </a>
-            </li>
-            <li class="navbar__item">
-                <a href="/" class="navbar__links"> Blog</a>
-            </li>
+    </nav>
 
-            <li class="navbar__btn">
-                <a href="/" class="button"> Contacte-me</a>
-            </li>
-        </ul>
 
+    <!--- Sobre mim --->
+    <div class="main">
+
+        <div class="main__container">
+            <video class="bk-video" autoplay muted loop>
+                <source src="/images/videoBK.mp4">
+            </video>
+            <div class="main__content">
+
+                <div class="main__card">
+
+                    <img src="/images/blank-profile-picture-973460_960_720.webp" alt="" class="profile_image">
+                    <h1>OLÁ BEM VINDO</h1>
+                    <h2>Chamo-me André Santos e este é o meu Portfolio online</h2>
+
+                </div>
+
+                <br>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam accumsan non nulla in malesuada.
+                    Fusce ut massa eget leo convallis tincidunt. Donec dui tellus, congue ut est vitae, blandit
+                    fermentum justo. Phasellus dignissim sem sapien, quis laoreet nunc dignissim vel.
+                </p>
+                <button class="main__btn"><a href="/sobremim.html">Sobre mim</a></button>
+            </div>
+            <!--- <div class="main__img__container">
+                <img src="images/code.svg" alt="">
+            </div>--->
+        </div>
     </div>
-</nav>
+
+    <!--- Rodapé --->
+
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__links--items">
+                    <h2>Sobre</h2>
+                    <a href="/">Teste</a>
+                    <a href="/">Teste</a>
+                    <a href="/">Teste</a>
+                    <a href="/">Teste</a>
+                </div>
+                <div class="footer__links--items">
+                    <h2>Redes Sociais</h2>
+                    <a href="/">Teste</a>
+                    <a href="/">Teste</a>
+                    <a href="/">Teste</a>
+                    <a href="/">Teste</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__links--items">
+                    <h2>Projetos</h2>
+                    <a href="/">Teste</a>
+                    <a href="/">Teste</a>
+                    <a href="/">Teste</a>
+                    <a href="/">Teste</a>
+                </div>
+                <div class="footer__links--items">
+                    <h2>Contactos</h2>
+                    <a href="/">Teste</a>
+                    <a href="/">Teste</a>
+                    <a href="/">Teste</a>
+                    <a href="/">Teste</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo"><i class="fas fa-laptop"></i>André Santos</a>
+                </div>
+                <p class="website__rights"> © Copyright 2023. Todos os direitos reservados.</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link"><i class="fab fa-facebook" id="facebook"
+                            target="_blank"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-instagram" id="instagram"
+                            target="_blank"></i></a>
+                    <a href="/" class="social__icon--link"><i class="fab fa-linkedin" id="linkedin"
+                            target="_blank"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
 
-<!--- Herp --->
-<div class="main">
-     <div class="main__container">
-         <div class="main__content">
-             <h1>OLÁ</h1>
-             <h2>BEM VINDO</h2>
-             <p>Olá meus amores</p>
-             <button class="main__btn"><a href="/">Começar</a></button>
-         </div>
-         <div class="main__img__container">
-             <img src="images/code.svg" alt="">
-         </div>
-     </div>
-</div>
-
-
-
-<script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>
 
 
